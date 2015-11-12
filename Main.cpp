@@ -11,22 +11,14 @@
 using namespace std;
 
 int main(){
-	SetConsoleOutputCP(1251);
-	cout << setprecision(16); 
-	int sizea, sizeb, sizex;
-	int t = 0; 
-	int ans, ESC = 27;
-#ifdef _DEBUG
-	cout << "================= Ðàáîòàåò ðåæèì DEBUG ==============" << endl;
-#endif
 	do{
 		cout << "\n================= test #" << ++t << " =================" << endl;
-		cout << " \t   Âû÷èñëÿåì âàðèàíò ¹40:" << endl;
+		cout << " \t   Ã‚Ã»Ã·Ã¨Ã±Ã«Ã¿Ã¥Ã¬ Ã¢Ã Ã°Ã¨Ã Ã­Ã² Â¹40:" << endl;
 
 		cout << " =====================================" << endl;
-		cout << "=     {  a / b + 1,      åñëè a > b   =" << endl;
-		cout << "= X = {  -100,           åñëè a = b   =" << endl;
-		cout << "=     {  a * b - 9) / a, åñëè a < b   =" << endl;
+		cout << "=     {  a / b + 1,      Ã¥Ã±Ã«Ã¨ a > b   =" << endl;
+		cout << "= X = {  -100,           Ã¥Ã±Ã«Ã¨ a = b   =" << endl;
+		cout << "=     {  a * b - 9) / a, Ã¥Ã±Ã«Ã¨ a < b   =" << endl;
 		cout << " =====================================" << endl << endl;
 
 		Size(sizea, "A");
